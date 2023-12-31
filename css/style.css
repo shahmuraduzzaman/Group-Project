@@ -1,0 +1,939 @@
+/* google font linking is here */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=League+Spartan:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Global Css Code Start*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'League Spartan', sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+/* Global Css Code Ends*/
+
+/* header section css code */
+.contact{
+    background: #282f3b;
+    padding: 15px 0px;
+}
+/* left side address info*/
+.lside a {
+    color: #aaafb8;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.lside a i{
+    color: #078586;
+    margin: 0px 5px 0px 0px;
+}
+
+.lside a span{
+    color: white;
+    margin: 0px 10px 0px 5px;
+}
+/* right side location info */
+.rside{
+    margin-left: 20px;
+}
+
+.rside a {
+    color: #aaafb8;
+    font-size: 15px;
+    margin-right: px;
+}
+
+.rside a i{
+    color: #078586;
+    margin-right: 10px;
+}
+
+.rside a span{
+    color: white;
+    margin: 0px 12px 0px 0px;
+}
+
+.share ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    margin-right: 6px;
+}
+
+.share ul li a {
+    margin-right: 5px;
+}
+
+.share ul li a i{ 
+    color: #078586;
+}
+
+
+/* header section css code */
+.head{  
+    width: 100%;
+    padding: 15px;
+}
+
+.head .logo img{
+    width: 100%;
+    height: auto;
+}
+/* menu css code */
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 0px 0px 30px;
+    text-align: center;
+}
+/* side menu css code */
+.sidemenu a i{
+    font-size: 30px;
+    margin: 0px 25px 0px 15px;
+    color: #282f3b;
+}
+
+.sidemenu a button{
+    padding: 0px 25px;
+    border-radius: 10px 0px 10px 0px;
+    background: #078586;
+    color: #fff;
+    border: 1px solid #078586;
+    line-height: 56px;
+    min-height: 56px;
+    min-width: 160px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.5s ease;
+    margin-right: 30px;
+}
+
+.sidemenu a button:hover{
+    background: #fff;
+    color: #078586 !important;
+    border-radius: 0px 10px 0px 10px
+}
+
+.sidemenu img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+}
+
+/* banner-section css */
+.banner-section{
+    width: 100%;
+    height: 100%;
+    padding: 80px 0px;
+    background: url(../img/b.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    position: relative;
+    }
+    
+.overlay{
+    position: absolute;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .15;
+}
+
+
+.banner-section .b-btn{
+    padding: 10px 17px;
+    width: 32%;
+    background: transparent;
+    border: 2px solid #078586;
+    border-radius: 16px 0px 16px 0px;
+    margin-bottom: 34px;
+    margin-top: 60px;
+}
+
+.banner-section .b-btn a{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin-left: 23px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    
+}
+
+.main-banner{
+
+}
+
+.main-banner h1{
+    font-family: 'League Spartan', sans-serif;
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    line-height: 80px;
+    margin-bottom: 27px;
+
+}
+
+.main-banner p{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #aaafb8;
+    margin-bottom: 45px;
+    
+}
+
+.main-banner .r-btn a{
+    padding: 16px 30px;
+    background-color: #078586;
+    border-radius: 10px 0px 10px 0px;
+    transition: 0.6s;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize; 
+    font-weight: 500;
+}
+
+
+.main-banner .r-btn a:hover{
+    border-radius: 0px 10px 0px 10px;
+    background:#fff ;
+    transition: 0.6s;
+    color: #078586;
+    font-size: 16px;
+}
+
+/* about-section css */
+
+.about-section{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #f0f3f9;
+}
+
+.about-section .main-box h3{
+    font-size: 33px;
+    font-weight: 500;
+    color: #078586;  
+}
+
+.line{
+    width: 9%;
+    height: 2px;
+    background: #078586;
+    margin-top: -12px;
+    margin-left: -4px;
+
+
+}
+
+/* rescource section css code */
+.resource{
+    width: 100%;
+    padding: 20px;
+}
+
+.resourceinfo h3{
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #078586;
+    padding: 0px 0px 10px 0px;
+    text-decoration: underline;
+}
+
+.resourceinfo h1{
+    color: #282f3b;
+    font-size: 46px;
+    line-height: 40px;
+    font-weight: 700;
+    padding: 0px 0px 10px 0px;
+}
+
+.resourceinfo p{
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+/* chart css code */
+.prog{
+    display: flex;
+    align-items: center;
+}
+
+.progleft{
+
+}
+
+.progleft a i{
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    background-color: #000;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+/* noyon intro css code */
+.intro{
+    width: 100%;
+    background: url(../img/banner.jpg) center center no-repeat;
+    position: relative;
+}
+
+.intro .container{
+    width: 1140px;
+    margin: auto;
+    padding: 90vh 0px 0px 0px;
+}
+
+.intro .content-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.intro .noumber h1{
+    font-size: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.intro .tittle{
+    align-items: center;
+}
+.intro .tittle p{
+    font-size: 23px;
+    font-weight: 700;
+    display: block;
+    line-height: 30px;
+    color: #fff;
+}
+
+
+.last{
+    background: transparent;
+    position: absolute;
+    top: 70px;
+    left: 110px;
+}
+
+.last .container{
+    width: 1140px;
+    margin: auto;
+}
+
+.last .i-sec {
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    background: #fff;
+    border-radius: 50px;
+    line-height: 66px;
+}
+
+.last .i-sec i{
+     font-size: 20px;
+     color:#078586;
+}
+
+.last .docs{
+    text-align: right;
+}
+.last .docs h2{
+    color:#fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.last .docs p {
+    color: rgba(255, 255, 255, 0.7);
+}
+.last .btn button{
+    background: #078586;
+    padding: 16px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 10px 0px 10px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: -12px;
+    transition: 0.5s;
+}
+
+.last .btn button:hover{
+    color: #078586;
+    padding: 16px 30px;
+    background: #fff;
+    border: none;
+    border-radius: 0px 10px 0px 10px;
+    transition: 0.9s;
+}
+/* hanif css code starts */
+.step-sec .title{
+    margin-top: 50px;
+}
+
+.step-sec .title h5{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;color: darkcyan;
+    text-align: center;
+    font-weight: 500;
+}
+.step-sec .title h1{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 600;
+}
+.btn{
+    padding: 0px !important;
+    margin-top: 35px;
+    border: none !important;
+}
+.btn a{
+    text-decoration: none;
+    background-color: #078586;
+    padding: 7px 12px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+.pic{
+    display: flex;
+    margin-top: 25px;
+}
+.pic img{
+    width: 50px;
+    height:60px;
+}
+.pic h4{
+   font-family: 'League Spartan', sans-serif;
+   font-size: 25px;
+   margin-left: 20px;
+
+}
+.text p{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.f-btn{
+    margin-top: 40px;
+}
+.f-btn a{
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 1px solid #078586;
+    border-radius: 10px 0px 10px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #078586;
+    text-transform: uppercase;
+    transition: 0.8s;
+
+}
+.f-btn a:hover{
+    background-color: #078586;
+    color: white;
+    border-radius: 0px 10px 0px 10px;
+    transition: 0.8s;
+}
+
+/* nazmul css code is here */
+.body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.pro {
+    width: 100%;
+    height: auto;
+    background-color: #f0f3f9;
+    padding: 60px 0px;
+}
+
+.pro .before-title {
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #078586;
+    padding: 0px 0px 10px 0px;
+    text-decoration: underline;
+}
+
+.pro .title-part h2 {
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #282f3b;
+    padding: 0px 0px 45px 0px;
+}
+
+.pro .description-box p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.member-image-1{
+    background: url(../img/team-1.jpg) center center no-repeat;
+    background-size: cover;
+    height: 62vh;
+    border-radius: 20px;
+    
+}
+
+.member-image-2{
+    background: url(../img/team-2.jpg) center center no-repeat;
+    background-size: cover;
+    height: 62vh;
+    border-radius: 20px;
+    
+}
+
+.member-image-3{
+    background: url(../img/team-3.png) center center no-repeat;
+    background-size: cover;
+    height: 62vh;
+    border-radius: 20px;
+    
+}
+
+
+.pro .team-box .social-media{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.author{
+    display: flex;
+    align-items: flex-end;
+    height: 30vh;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.pro .team-box .social-media ul {
+    padding: 10px 0px;
+    margin: 0;
+    width: 16%;
+    height: auto;
+    background-color: #078586;
+    border-radius: 0px 20px 60px 60px;
+}
+
+.pro .team-box .social-media ul li {
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 5px auto;
+    text-align: center;
+    
+}
+
+.pro .team-box .social-media ul li i{
+    color: #4a4e56;
+    font-size: 20px;
+}
+
+.pro .team-box .authour-details span {
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.pro .team-box .authour-details h6{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    line-height: 30px;
+}
+/* hanif css code is here */
+.slid-sec{
+    width: 100%;
+    margin-top: 100px;
+    background-color: #ebe9eb;
+}
+.card{
+    border: none !important;
+    
+}
+.card img{
+    width: 250px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.slid-sec .card-inner{
+    display: flex;
+    margin-top: 20px;
+}
+.para{
+    width: 250px;
+    margin: 0px 35px; 
+}
+.para span{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #078586;
+    text-transform: uppercase;
+}
+.para p{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    line-height: 35px;
+
+}
+.slid-sec .card-inner .m-btn a{
+    border: 1px solid #078586;
+    padding: 15px 20px;
+    border-radius: 10px 0px;
+    transition: 0.5s;
+    margin-right: 33px;
+}
+.slid-sec .card-inner .m-btn a i{
+    margin-top: 30px;
+    
+}
+.slid-sec .card-inner .m-btn a:hover{
+    background-color: #078586;
+    transition: 0.5s;
+    color: white;
+ }
+ /* mehenil code is here */
+ 
+.find-out .col-lg-12 .title h5{
+    font-size: 29px;
+    line-height: 52px;
+    font-weight: 600;
+    color: #078586;
+    text-decoration: underline;
+    font-family: 'League Spartan', sans-serif;
+}
+.find-out .col-lg-12 .title h2{
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #282f3b;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.bg{
+    background: url(../img/pic1.jpg) center center no-repeat;
+    background-size: cover;
+    height: 55vh;  
+}
+.bg i{
+    color: #fff;
+}
+.bg span{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.bg .date{
+    color: #fff;
+}
+.bg .profile{
+    display: flex;
+    padding: 23px 28px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.bg .profile .img-part img{
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    
+}
+.bg .profile .deg{
+    color: #fff;
+}
+.bg2{
+    background: url(../img/pic2.jpg) center center no-repeat;
+    background-size: cover;
+    height: 55vh;
+}
+.bg2 .profile{
+    display: flex;
+}
+/* rabbi css code is here */
+.content-box{
+    padding: 35px 15px;
+    position: relative;
+    /* background: url(../pic/3.jpg) center center no-repeat;
+    background-size: cover; */
+}
+.content-box img{
+    width: 90%;
+    height: 65vh;
+    position: absolute;
+}
+.content-box .overlay{
+    position: absolute;
+    width: 90%;
+    height: 65vh;
+    background: #f0f3f9;
+    opacity: .75;
+}
+.content-box .overlay:hover{
+    position: absolute;
+    width: 90%;
+    height: 65vh;
+    background: #f0f3f9;
+    opacity: 1;
+}
+.c-head{
+    position: absolute;
+    padding: 25px 15px;
+}
+.c-head a{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4a4e56;
+}
+.c-head a i{
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #078586;
+}
+.c-body{
+    position: relative;
+    text-align: center;
+    padding: 105px 52px
+}
+.c-body span{
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 22px;
+}
+.c-body h2{
+    font-size: 15px;
+    line-height: 25px;
+}
+.c-footer{
+    position: absolute;
+}
+.c-footer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: -1px 10px;
+}
+.c-footer .pro{
+    padding: 0px 70px 0px;
+}
+.c-footer .pro p{
+    font-size: 12px;
+    line-height: 18px;
+    margin: 5px 0px;
+}
+.c-footer .pro h4{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+/* anwar css code is here */
+.footer-section {
+    width: 100%;
+    height: 100vh;
+    padding: 33px 0px;
+    background: #282F3B;
+}
+
+.footer-section .logo {
+
+}
+
+.footer-section .logo img {
+    width: 72%
+}
+
+.footer-section .logo p {
+    font-size: 18px;
+    color: #aaafb8;
+    margin-top: 25px;
+}
+
+.logo .img {}
+
+.logo .img img {
+    width: 30%;
+    margin-top: 26px;
+}
+
+.logo .content {
+    text-align: center;
+    margin-left: 77px;
+    margin-top: -63px;
+}
+.logo .content h4 {
+    font-size: 17px;
+    color: #408080;
+    text-transform: uppercase;
+    margin-right: 47px;
+}
+
+.logo .content h5 {
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-right: 24px;
+}
+
+.last-c {
+    margin-top: 10px;
+}
+
+
+.line {
+    width: 60px;
+    height: 3px;
+    background: #0f6667;
+    margin-top: 12px;
+}
+    
+
+.last-c h3 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.location {
+
+}
+
+.location h3 {
+    margin-top: 26px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.location p {
+    font-size: 17px;
+    margin-top: 23px;
+    color: #aaafb8;
+}
+
+.contact{
+    margin-top: 28px;
+}
+
+.contact h3 {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.contact h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.contact h4 span {
+    font-size: 17px;
+    color: #aaafb8;
+}
+
+.contact h5 {
+    font-size: 17px;
+    color: #fff;
+}
+
+.contact h5 span {
+    font-size: 16px;
+    color: #aaafb8;
+}
+
+.company{
+
+}
+.company h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.line-1 {
+    width: 50%;
+    height: 3px;
+    background: #0f6667;
+}
+
+.company ul{
+
+}
+
+.company ul li{
+
+}
